@@ -1,0 +1,12 @@
+{
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mall.em_mall",
+      "sha256_cert_fingerprints": [
+        "FE:03:4D:7C:7D:37:B8:6A:BA:E7:8A:B8:9B:E4:41:F8:E8:3D:97:2E:0D:1D:F5:54:21:F1:F9:E4:F4:84:F0:A5"
+      ]
+    }
+  }

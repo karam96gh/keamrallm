@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            height: 100vh;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #ffffff, #ffffff);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: fadeInUp 1s ease-out;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+        }
+        .logo {
+    width: 200px; /* عرض اللوغو */
+    height: 200px; /* ارتفاع اللوغو */
+    display: block;
+    animation: bounce 1s ease-out;
+}
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+        .social-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 16px;
+            color: #000;
+            text-decoration: none;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #00f;
+            animation: slideInRight 1s ease-out;
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        .store-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .store-links a {
+            display: inline-block;
+            margin: 10px;
+            animation: bounceIn 1.5s ease-out;
+            color: #000; /* تغيير لون الروابط */
+            text-decoration: none; /* إزالة التحتية للروابط */
+        }
+        @keyframes bounceIn {
+            from { opacity: 0; transform: scale(0.5); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .store-links img {
+            width: 120px;
+        }
+        /* Stop animation for Google Play link */
+        .store-links a:first-child {
+            animation: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Company Logo" class="logo">
+
+        <h2>المول الإلكتروني الأول في سوريا</h2>
+        
+        <div class="social-links">
+            <a href="https://www.facebook.com/em.mall.app.alp?mibextid=ZbWKwL">Facebook</a>
+            <a href="https://instagram.com/e.mall_syria?igshid=MzMyNGUyNmU2YQ==">Instagram</a>
+        </div>
+
+        <div class="contact-info">
+            <p>mobile: <a href="tel:+963944449792">+963944449792</a></p>
+
+            <p>mobile: <a href="tel:+963955559792">+963955559792</a></p>
+<p>mobile: <a href="tel:+963966669792">+963966669792</a></p>
+
+        </div>
+
+              <div class="store-links">
+<a href="https://play.google.com/store/apps/details?id=com.mall.em_mall&pcampaignid=web_share">Google Play</a>
+<a href="https://apps.apple.com/app/emall">App Store (soon)</a>
+
+    </div>
+</body>
+</html>
