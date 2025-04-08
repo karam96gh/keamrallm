@@ -10,7 +10,7 @@ const socket = require('./socket'); // Import the socket.js module
 require('dotenv').config();
 
 const app = express();
-
+//hiiii
 // HTTPS configuration
 const httpsOptions = {
   key: fs.readFileSync('C:/Users/Admin/Backend-E_commerce-Products-NodeJs-main/Backend-E_commerce-Products-NodeJs-main/src/passss.pem'),
